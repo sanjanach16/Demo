@@ -34,10 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-	test:
-	    steps:
-	      - name: Run a one-line script
-	        run: echo Hello, world!
+  test:
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, world!
 
+ 
+	
   
   
